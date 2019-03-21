@@ -32,9 +32,9 @@ with the points diff of 3 (one match) the metric outputs a value of (1 + 2 + 1 +
 
 __Metric-3__ (_Weighted bag size_): <br>
 
-Bag sizes are inverse weighted as per the position on the leaderboard. Intuitively there is most interest in fight for higher ranks up the leaderboard (other weights could be used to focus more on certain positions etc).
+Bag sizes are inverse weighted as per the position on the leaderboard. Intuitively there is most interest in fight for higher ranks up the leaderboard. Time decay weights could be useful to highlight changes in the end of season but wasn't implemented here.
 
-The plots below (aggregated across season and variation in a single season) compare each metric values across seasons and for sections of the leaderboard (top position, top 4, relegation zone and full leaderboard) to derive interesting insights across seasons. 
+The plots in the ipyhon notebook and the attached html (aggregated across season and variation in a single season) compare each metric values across seasons and for sections of the leaderboard (top position, top 4, relegation zone and full leaderboard) in search of interesting insights across seasons. 
 
 Invite the subject matter experts and fans to comment send feedback/validate/in-validate the findings in the plots for this fun little project.
 
