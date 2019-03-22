@@ -38,4 +38,4 @@ The plots in the ipyhon notebook and the attached html (aggregated across season
 
 Invite the subject matter experts and fans to comment send feedback/validate/in-validate the findings in the plots for this fun little project.
 
-Toggle the button below to view code for implemenation of these metrics using pandas and numpy.
+See the ipython notebook for implementaiton of the metrics and the markdown directory for the output plots.
