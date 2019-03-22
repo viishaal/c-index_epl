@@ -30,11 +30,11 @@ This metric computes how many teams are within a certain points difference of ea
 
 with the points diff of 3 (one match) the metric outputs a value of (1 + 2 + 1 + 0) = 4 for this round. a's bag has {b} in it; b has {a, c} while d has none.
 
-__Metric-3__ (_Weighted bag size_): <br>
+__Metric-3__ (_Rank weight bag size_): <br>
 
-Bag sizes are inverse weighted as per the position on the leaderboard. Intuitively there is most interest in fight for higher ranks up the leaderboard. Time decay weights could be useful to highlight changes in the end of season but wasn't implemented here.
+Bag sizes are inverse weighted as per the position on the leaderboard. Intuitively there is most interest in fight for higher ranks up the leaderboard. Time decay weights could be useful to highlight changes in the end of season but wasn't implemented here (time weight bag size).
 
-The plots in the ipyhon notebook and the attached html (aggregated across season and variation in a single season) compare each metric values across seasons and for sections of the leaderboard (top position, top 4, relegation zone and full leaderboard) in search of interesting insights across seasons. 
+The plots in the ipyhon notebook and the attached html (aggregated across season and variation in a single season) compare each metric values across seasons and for sections of the leaderboard (top position, top 4, relegation zone and full leaderboard) in search of interesting insights across seasons. Higher the y-axis metric value in the plot signifies higher competition for the season/round etc.
 
 Invite the subject matter experts and fans to comment send feedback/validate/in-validate the findings in the plots for this fun little project.
 
